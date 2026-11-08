@@ -1,0 +1,25 @@
+{
+  "name": "db-storage-research",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "3.50.4-build1",
+    "chart.js": "4.5.0",
+    "react": "19.1.1",
+    "react-chartjs-2": "5.3.0",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.7",
+    "@vitejs/plugin-react": "4.7.0",
+    "typescript": "5.9.2",
+    "vite": "6.4.5"
+  }
+}
